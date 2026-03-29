@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tonny Gabriel | Java Backend Developer - Full Stack</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="code-bracket">&lt;/&gt;</span>
+                <span class="logo-text">TonnyDev</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#stack" class="nav-link">Stack</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-wrapper">
+                    <img src="assets/img/fotoperfil.jpeg" alt="Tonny Gabriel" class="profile-pic">
+                    <div class="badge">
+                        <i class="fas fa-rocket"></i> Full Stack Developer
+                    </div>
+                    <div class="welcome-container">
+                    <span class="wave">👋</span>
+                    <span class="welcome-text">¡Hola!, soy <strong>Tonny Gabriel</strong></span>
+                </div>
+                </div>
+                
+
+                <h1>Construyendo <span class="highlight">APIs Escalables</span></h1>
+                <p class="hero-description">
+                    Especialista en <strong>Java & Spring Boot</strong> con enfoque en Arquitectura Limpia.
+                    Experto en transformar requerimientos comerciales en soluciones digitales robustas.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary"><i class="fas fa-code"></i> Ver Proyectos</a>
+                    <a href="mailto:tonnyghp577@gmail.com" class="btn btn-secondary"><i class="fas fa-envelope"></i>
+                        Contactar</a>
+                </div>
+                <div class="code-stats">
+                    <div class="stat"><i class="fas fa-check-double"></i> <span>SOLID Principles</span></div>
+                    <div class="stat"><i class="fas fa-layer-group"></i> <span>Arquitectura Limpia</span></div>
+                </div>
+            </div>
+
+            <div class="hero-code">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        <span class="code-title">CleanArchitecture.java</span>
+                    </div>
+                    <pre><code class="language-java">
+<span class="annotation">@RestController</span>
+<span class="keyword">public class</span> <span class="class">FinancioController</span> {
+    <span class="keyword">private final</span> TransactionService service;
+
+    <span class="annotation">@PostMapping</span>
+    <span class="keyword">public</span> ResponseEntity&lt;DTO&gt; <span class="method">save</span>(DTO dto) {
+        <span class="keyword">return</span> ResponseEntity.ok(service.execute(dto));
+    }
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="container">
+        <h2 class="section-title"><i class="fas fa-user-tie"></i> Perfil Profesional</h2>
+        <div class="stack-category" style="max-width: 800px; margin: 0 auto; text-align: center; padding: 2rem;">
+            <p style="font-size: 1.1rem; color: var(--text-gray);">
+                Soy un desarrollador apasionado por el ecosistema de **Java** y tecnologías modernas de Frontend como
+                **React** y **Angular**.
+                Mi experiencia se centra en sistemas financieros, comerciales y educativos, priorizando la seguridad
+                (JWT) y la optimización de bases de datos como **MySQL** y **PostgreSQL**.
+            </p>
+        </div>
+    </section>
+
+    <section id="stack" class="container">
+        <h2 class="section-title"><i class="fas fa-layer-group"></i> Stack Tecnológico</h2>
+        <div class="stack-categories">
+            <div class="stack-category">
+                <h3><i class="fab fa-java"></i> Backend</h3>
+                <div class="tech-items">
+                    <div class="tech-item java"><i class="fab fa-java"></i><span>Java 17+</span></div>
+                    <div class="tech-item spring"><i class="fas fa-leaf"></i><span>Spring Boot</span></div>
+                    <div class="tech-item"><i class="fas fa-database"></i><span>JPA/Hibernate</span></div>
+                </div>
+            </div>
+            <div class="stack-category">
+                <h3><i class="fas fa-desktop"></i> Frontend</h3>
+                <div class="tech-items">
+                    <div class="tech-item angular"><i class="fab fa-angular"></i><span>Angular 17</span></div>
+                    <div class="tech-item" style="color: #61DAFB;"><i class="fab fa-react"></i><span>React 18</span>
+                    </div>
+                    <div class="tech-item"><i class="fab fa-js"></i><span>TypeScript</span></div>
+                </div>
+            </div>
+            <div class="stack-category">
+                <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                <div class="tech-items">
+                    <div class="tech-item mysql"><i class="fas fa-database"></i><span>MySQL</span></div>
+                    <div class="tech-item postgres"><i
+                            class="devicon-postgresql-plain colored"></i><span>Postgres</span></div>
+                    <div class="tech-item mongodb" style="color: #47A248;">
+                        <i class="fas fa-leaf"></i><span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="architecture-badge">
+                <i class="fas fa-award"></i> <span>Clean Architecture + SOLID + JWT Security + DTO Pattern</span>
+            </div>
+    </section>
+
+    <section id="proyectos" class="container">
+        <h2 class="section-title"><i class="fas fa-project-diagram"></i> Proyectos Destacados</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="assets/img/PeruMarket.png" class="project-img" alt="PeruMarket">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-shopping-cart project-icon"></i>
+                        <h3>ProyPeruMarket</h3>
+                        <span class="project-badge">Comercial</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>React 18</span><span>Spring Boot</span><span>Tailwind</span><span>MySQL</span>
+                    </div>
+                    <p>Gestión integral para PYMES peruanas. Control de stock en tiempo real y reportes centralizados.
+                    </p>
+                    <div class="project-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Autenticación JWT y Roles</li>
+                            <li><i class="fas fa-check"></i> Dashboards con Chart.js</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/pashko577" class="repo-link"><i class="fab fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="assets/img/AsistenciaDocente.png" class="project-img" alt="Asistencia">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-user-check project-icon"></i>
+                        <h3>Asistencia Docente</h3>
+                        <span class="project-badge">Educativo</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Angular 17</span><span>Java</span><span>Bootstrap 5</span>
+                    </div>
+                    <p>Automatización de planillas y control de tardanzas con cálculo automático de descuentos.</p>
+                    <div class="project-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Reportes PDF integrados</li>
+                            <li><i class="fas fa-check"></i> Gestión de horarios dinámicos</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="repo-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="assets/img/financio.png" class="project-img" alt="Financio">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-wallet project-icon"></i>
+                        <h3>FINANCIO</h3>
+                        <span class="project-badge">Financiero</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Spring Boot</span><span>Angular</span><span>DTOs</span>
+                    </div>
+                    <p>Control de ingresos y egresos con balance económico en tiempo real para toma de decisiones.</p>
+                    <div class="project-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Balance automático ingresos/gastos</li>
+                            <li><i class="fas fa-check"></i> Arquitectura basada en DTOs</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="repo-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-paper-plane"></i> Contacto</h2>
+            <div class="contact-links">
+                <a href="https://linkedin.com/in/TonnyGabrielHinostrozaPalaco" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                    <small>Conectemos profesionalmente</small>
+                </a>
+                <a href="mailto:tonnyghp577@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <small>tonnyghp577@gmail.com</small>
+                </a>
+                <a href="https://github.com/pashko577" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                    <small>Ver más repositorios</small>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Hecho con <i class="fas fa-heart"></i> por Tonny Gabriel &copy; 2026</p>
+            <p class="footer-quote">"Clean code always looks like it was written by someone who cares"</p>
+        </div>
+    </footer>
+</body>
+
+</html>
