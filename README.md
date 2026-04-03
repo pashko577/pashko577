@@ -9,9 +9,10 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-**Java & Spring Boot | APIs REST | Clean Architecture | Full Stack**
+**☕ Java & Spring Boot | 🚀 APIs REST | 🏛️ Clean Architecture | 🌐 Full Stack**
 
 [Proyectos](#-proyectos-destacados) • [Stack](#-stack-tecnológico) • [Contacto](#-contacto)
 
@@ -23,14 +24,14 @@
 
 ## 👨‍💻 Perfil Profesional
 
-Desarrollador Backend especializado en **Java** y **Spring Boot** para construir APIs robustas y escalables. Complemento el backend con **React** y **Angular** para soluciones full stack. Aplico **Arquitectura Limpia** y principios **SOLID** para garantizar código mantenible.
+Desarrollador Backend especializado en **☕ Java** y **🌱 Spring Boot** para construir APIs robustas y escalables. Complemento el backend con **⚛️ React** y **🅰️ Angular** para soluciones full stack. Aplico **🏛️ Arquitectura Limpia** y principios **📐 SOLID** para garantizar código mantenible.
 
 **Enfoque técnico:**
-- **Arquitectura:** Clean Architecture, Capas (Controller/Service/Repository), Microservicios.
-- **Backend:** Java 17, Spring Boot, JPA/Hibernate, JWT, Spring Security.
-- **Frontend:** React, Angular, TypeScript, TailwindCSS.
-- **Bases de datos:** MySQL, PostgreSQL, MongoDB.
-- **Prácticas:** DTOs, Validaciones, JUnit, Mockito.
+- **🏛️ Arquitectura:** Clean Architecture, Capas (Controller/Service/Repository), Microservicios.
+- **☕ Backend:** Java 17, Spring Boot, JPA/Hibernate, JWT, Spring Security.
+- **🎨 Frontend:** React, Angular, TypeScript, TailwindCSS.
+- **🗄️ Bases de datos:** MySQL, PostgreSQL, MongoDB.
+- **✅ Prácticas:** DTOs, Validaciones, JUnit, Mockito.
 
 ---
 
@@ -38,18 +39,18 @@ Desarrollador Backend especializado en **Java** y **Spring Boot** para construir
 
 | Categoría | Tecnologías |
 |-----------|--------------|
-| **Backend** | ☕ Java 17, 🌱 Spring Boot, 💾 JPA/Hibernate, 🔐 Spring Security/JWT, 🧪 JUnit/Mockito |
-| **Frontend** | ⚛️ React 18, ⚡ Angular 17, 🎨 TailwindCSS, 🧠 TypeScript |
-| **BD** | 🐬 MySQL, 🐘 PostgreSQL, 🍃 MongoDB |
-| **Herramientas** | 🐙 Git, 📮 Postman, 💡 IntelliJ IDEA, 🐳 Docker (en aprendizaje) |
+| **☕ Backend** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="18"/> Java 17, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="18"/> Spring Boot, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" width="18"/> JPA/Hibernate, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="18"/> Spring Security/JWT, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" width="18"/> JUnit/Mockito |
+| **🎨 Frontend** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="18"/> React 18, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="18"/> Angular 17, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="18"/> TailwindCSS, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18"/> TypeScript |
+| **🗄️ BD** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="18"/> MySQL, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="18"/> PostgreSQL, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="18"/> MongoDB |
+| **🔧 Herramientas** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="18"/> Git, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="18"/> GitHub, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="18"/> IntelliJ IDEA, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="18"/> VS Code, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="18"/> Docker (en aprendizaje) |
 
 ---
 
 ## 🏛️ Buenas Prácticas
 
-- SOLID, Clean Code, DTO Pattern.
-- Inyección de dependencias, bajo acoplamiento.
-- Validaciones en backend para seguridad y consistencia.
+- ✅ SOLID, Clean Code, DTO Pattern.
+- ✅ Inyección de dependencias, bajo acoplamiento.
+- ✅ Validaciones en backend para seguridad y consistencia.
 
 ---
 
@@ -63,13 +64,13 @@ Desarrollador Backend especializado en **Java** y **Spring Boot** para construir
   <img src="assets/img/PeruMarket.png" alt="ProyPeruMarket" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </p>
 
-**Tecnologías:** React, Vite, TailwindCSS, Java 17, Spring Boot 3, JPA, MySQL, JWT.
+**Tecnologías:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16"/> React, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="16"/> Vite, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="16"/> TailwindCSS, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="16"/> Java 17, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="16"/> Spring Boot 3, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" width="16"/> JPA, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="16"/> MySQL, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="16"/> JWT.
 
 **Funcionalidades:**
-- CRUD de usuarios con roles (Admin/Empleado).
-- Gestión de productos con stock en tiempo real.
-- Registro de ventas y cálculo automático.
-- Reportes interactivos.
+- ✅ CRUD de usuarios con roles (Admin/Empleado)
+- ✅ Gestión de productos con stock en tiempo real
+- ✅ Registro de ventas y cálculo automático
+- ✅ Reportes interactivos
 
 ---
 
@@ -79,13 +80,13 @@ Desarrollador Backend especializado en **Java** y **Spring Boot** para construir
   <img src="assets/img/AsistenciaDocente.png" alt="Sistema Asistencia" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </p>
 
-**Tecnologías:** Angular, TypeScript, Bootstrap 5, Java, Spring Boot, JPA, MySQL.
+**Tecnologías:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="16"/> Angular, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="16"/> TypeScript, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="16"/> Bootstrap 5, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="16"/> Java, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="16"/> Spring Boot, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" width="16"/> JPA, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="16"/> MySQL.
 
 **Funcionalidades:**
-- Registro diario de asistencia y tardanzas.
-- Cálculo automático de descuentos.
-- Generación de reportes.
-- Integración con planillas.
+- ✅ Registro diario de asistencia y tardanzas
+- ✅ Cálculo automático de descuentos
+- ✅ Generación de reportes
+- ✅ Integración con planillas
 
 ---
 
@@ -95,12 +96,12 @@ Desarrollador Backend especializado en **Java** y **Spring Boot** para construir
   <img src="assets/img/financio.png" alt="FINANCIO" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </p>
 
-**Tecnologías:** Angular, Bootstrap 5, Java, Spring Boot, MySQL.
+**Tecnologías:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="16"/> Angular, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="16"/> Bootstrap 5, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="16"/> Java, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="16"/> Spring Boot, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="16"/> MySQL.
 
 **Funcionalidades:**
-- Registro de ingresos y egresos.
-- Cálculo automático de balance.
-- Organización de movimientos financieros.
+- ✅ Registro de ingresos y egresos
+- ✅ Cálculo automático de balance
+- ✅ Organización de movimientos financieros
 
 ---
 
@@ -119,10 +120,10 @@ Desarrollador Backend especializado en **Java** y **Spring Boot** para construir
 
 ## 🎯 Próximos pasos
 
-- Microservicios avanzados con Spring Cloud.
-- Docker y Kubernetes.
-- AWS (Certificación Developer).
-- Next.js y Node.js.
+- ☁️ Microservicios avanzados con Spring Cloud
+- 🐳 Docker y Kubernetes
+- ☁️ AWS (Certificación Developer)
+- ⚛️ Next.js y Node.js
 
 ---
 
@@ -130,9 +131,9 @@ Desarrollador Backend especializado en **Java** y **Spring Boot** para construir
 
 | Plataforma | Enlace |
 |------------|--------|
-| 💼 LinkedIn | [linkedin.com/in/TonnyGabrielHinostrozaPalaco](https://linkedin.com/in/TonnyGabrielHinostrozaPalaco) |
-| 🐙 GitHub | [github.com/pashko577](https://github.com/pashko577) |
-| 📧 Email | tonnyghp577@gmail.com |
-| 🌐 Portafolio | [pashko577.github.io](https://pashko577.github.io) |
+| 💼 **LinkedIn** | [linkedin.com/in/TonnyGabrielHinostrozaPalaco](https://linkedin.com/in/TonnyGabrielHinostrozaPalaco) |
+| 🐙 **GitHub** | [github.com/pashko577](https://github.com/pashko577) |
+| 📧 **Email** | tonnyghp577@gmail.com |
+| 🌐 **Portafolio** | [pashko577.github.io](https://pashko577.github.io) |
 
 </div>
